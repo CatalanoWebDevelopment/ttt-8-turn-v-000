@@ -40,7 +40,7 @@ def turn(board)
   if valid_move?(board, index) == true
     move(board, index, char = "X")
     display_board(board)
-  else 
+  else
     # RUNNING #turn(board) RERUNS THE CODE BACK TO LINE 37 UNTIL THE IF STATEMENT TURNS TRUE
     turn(board)
   end
